@@ -1,0 +1,374 @@
+html {
+    font-size: 16px;
+    background-color: rgb(42, 54, 59);
+}
+
+main {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    font-family: 'Architects Daughter', sans-serif;
+}
+
+h2 {
+    font-size: 3.68rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+    color: rgb(245, 208, 97);
+}
+
+header {
+    width: 100%;
+    height: 6.25rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(248, 246, 246);
+}
+
+header .logo {
+    width: 4.5%;
+}
+
+.navbar {
+    width: 65%;
+}
+
+.navbar ul {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Architects Daughter', sans-serif;
+    font-size: 1.5rem;
+}
+
+.navbar a:link, .navbar a:visited {
+    color: rgb(42, 54, 59);
+}
+
+.navbar a:hover {
+    color: rgb(207, 70, 71);
+    font-size: 1.65rem;
+}
+
+#hero {
+    width: 80%;
+    height: 37.5rem;
+    margin: 5rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://images.unsplash.com/photo-1503095396549-807759245b35?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#hero .banner {
+    width: 100%;
+}
+
+#hero .banner-info {
+    width: 100%;
+    text-align: center;
+}
+
+#banner-h2 {
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 9rem;
+    color: white;
+}
+
+#foundation {
+    width: 80%;
+    margin: 0 auto;
+    padding: 6.25rem 0;
+    color: rgb(248, 246, 246);
+}
+
+#foundation .container {
+    padding-top: 4.375rem;
+}
+
+.foundation-flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    gap: 1.875rem;
+}
+
+.foundation-flex-container p {
+    width: 50%;
+    text-align: justify;
+    font-size: 1.45rem;
+    line-height: 1.5;
+    letter-spacing: 1.1;
+    word-spacing: 2;
+
+}
+
+.foundation-flex-container .desktop-hidden {
+    display: none;
+}
+
+#foundation img {
+    width: 30%;
+    height: auto;
+    overflow: hidden;
+    box-shadow: 5px 5px 20px 5px rgb(248, 246, 246);
+}
+
+#activities {
+    width: 80%;
+    margin: 0 auto;
+    padding: 6.25rem 1rem;
+    border-radius: 1.25rem;
+    background-color: rgb(207, 70, 71);
+    color: rgb(248, 246, 246);
+}
+
+#activities .flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1.25rem;
+    padding-top: 4.375rem;
+}
+
+.activities-container {
+    width: 62.5rem;
+    text-align: center;
+}
+
+.activities-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.activities-container h5 {
+    font-size: 1.9rem;
+    padding-top: 1.25rem;
+}
+
+#about-us {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 6.25rem;
+    color: rgb(248, 246, 246);
+
+}
+
+.about-us-container {
+    padding-top: 4.375rem;
+    display: flex;
+    align-items: flex;
+    justify-content: center;
+    gap: 10rem;
+}
+
+.about-us-container p {
+    width: 50%;
+    height: auto;
+    text-align: justify;
+    font-size: 1.45rem;
+    line-height: 1.5;
+    letter-spacing: 1.1;
+    word-spacing: 2;
+}
+
+#form {
+    width: 80%;
+    margin: 6.25rem auto;
+    padding: 4.25rem 0;
+    border-radius: 0.5rem;
+    background-color: rgb(245, 208, 97);
+    color: rgb(25, 54, 59);
+}
+
+#form form {
+    text-align: center;
+    font-size: 3.68rem;
+}
+
+form #email {
+    width: 31.25rem;
+    height: 1.875rem;
+    text-align: center;
+    font-size: 1.2rem;
+    border-radius: 0.1875rem;
+    
+}
+
+form #submit {
+    width: 6.25rem;
+    height: 1.875rem;
+    border-radius: 0.1875rem;
+    font-size: 1.2rem;
+    background-color: rgb(42, 54, 59);
+    color: rgb(248, 246, 246);
+}
+
+footer {
+    width: 100%;
+    margin: 0 auto;
+    padding: 2rem 0;
+    text-align: center;
+    font-family: 'Architects Daughter', sans-serif;
+    font-size: 1.2rem;
+    background-color: rgb(248, 246, 246);
+}
+
+footer p {
+    padding: 0.5rem;
+}
+
+footer .fineprint {
+    font-weight: ligther;
+    font-size: 0.8;
+}
+
+@media only screen and (max-width: 2148px) {
+
+    .mobile-hidden {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 1395px) {
+
+    #hero {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    #foundation {
+        width: 95%;
+    }
+
+    #foundation img {
+        min-width: 21.875rem;
+    }
+
+    #activities {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+
+    header {
+        display: none;
+    }
+
+    #foundation .foundation-flex-container {
+        margin-bottom: 3rem;
+    }
+
+    #activities .flex-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5rem;
+    }
+
+    .activities-container {
+        width: 100%;
+    }
+
+    #activities img {
+        width: 85%;
+        overflow: hidden;
+    }
+
+    .mobile-hidden3 {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 780px) {
+
+    main {
+        width: 100%;
+    }
+
+    #activities {
+    width: 80%;
+    }
+
+    #fondation .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 4rem;
+    }
+
+    #foundation .foundation-flex-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    #foundation img {
+        width: 85%;
+        height: auto;
+        padding-bottom: 2rem;
+    }
+
+    .foundation-flex-container p {
+        width: 80%;
+        height: auto;
+        padding: 2rem 0;
+        line-height: 2;
+
+    }
+
+    .mobile-hidden2 {
+        display: none;
+    }
+
+    #about-us .about-us-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+    }
+
+    #about-us p {
+        width: 80%;
+        height: auto;
+        line-height: 2;
+    }
+
+}
+
+@media only screen and (max-width: 644px) {
+
+    form #email {
+        width: 95%;
+    }
+
+}
